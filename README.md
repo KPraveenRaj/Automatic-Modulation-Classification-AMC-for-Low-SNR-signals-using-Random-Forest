@@ -284,7 +284,7 @@ Gini = 1 - Σ(p_i²)
 # 📈 SNR vs Accuracy
 
 * -5 dB → ~88%
-* > 5 dB → ~99%
+*  5 dB → ~99%
 
 👉 Model is robust to noise
 
