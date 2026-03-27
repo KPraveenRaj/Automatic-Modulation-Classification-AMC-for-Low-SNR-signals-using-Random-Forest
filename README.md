@@ -283,8 +283,8 @@ Gini = 1 - Σ(p_i²)
 
 # 📈 SNR vs Accuracy
 
-* -5 dB → ~88%
-*  5 dB → ~99%
+* -5 dB → ~88% (worst case)
+*  5-20 dB → ~99%+
 
 👉 Model is robust to noise
 
@@ -298,20 +298,13 @@ Gini = 1 - Σ(p_i²)
 
 ---
 
-# 🚀 Future Work
-
-* CNN on raw IQ signals
-* Higher-order modulation (QAM)
-* Real-time SDR integration
-
----
-
 # 🔥 Live Simulation
 
 Simulates real-time classification:
 
 ```
-SNR: 10 dB | Predicted: PSK (92%) | Actual: PSK
+Example output:
+SNR: 10 dB | Predicted: PSK | Actual: PSK
 ```
 
 ---
@@ -325,11 +318,5 @@ This project demonstrates a complete pipeline for modulation recognition using:
 * Machine learning
 
 It achieves strong accuracy and robustness under noisy conditions, making it suitable for applications in **software-defined radio and cognitive radio systems**.
-
----
-
-# ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
 
 ---
