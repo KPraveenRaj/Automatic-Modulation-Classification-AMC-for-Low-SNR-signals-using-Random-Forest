@@ -18,24 +18,18 @@ conda activate amc_env
 
 ---
 
-## 📦 2. Install Dependencies
+## 📁 2. Navigate to Project Folder
 
 ```bash
-pip install -r requirements.txt
-```
-
-If that fails:
-
-```bash
-pip install numpy scipy scikit-learn matplotlib joblib
+cd AMC_Project
 ```
 
 ---
 
-## 📁 3. Navigate to Project Folder
+## 📦 3. Install Dependencies
 
 ```bash
-cd AMC_Project
+pip install -r requirements.txt
 ```
 
 ---
