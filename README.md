@@ -79,7 +79,7 @@ python live_simulation.py
 # 🧱 Project Architecture
 
 ```
-Bit Stream 
+Bit Stream (128 bits)
    ↓
 Modulation (ASK / FSK / PSK)
    ↓
@@ -93,6 +93,7 @@ Random Forest Classifier
    ↓
 Prediction (Modulation Type)
 ```
+`Note: Code generates Random 128 bits to generate signals. you can give a file with custom bits and size and make few changes in data_generation.py to generate your custom signals data`
 
 ---
 
