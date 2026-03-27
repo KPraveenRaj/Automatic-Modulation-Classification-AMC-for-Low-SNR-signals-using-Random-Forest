@@ -265,12 +265,12 @@ Gini = 1 - Σ(p_i²)
 
 ## 📊 Classification Performance
 
-| Class | Precision | Recall | Insight           |
-| ----- | --------- | ------ | ----------------- |
-| ASK   | 0.98      | 0.95   | Excellent         |
-| FSK   | 0.95      | 0.94   | Stable            |
-| PSK   | 0.94      | 0.75   | Needs improvement |
-| NOISE | 0.74      | 0.93   | Over-detected     |
+| Class | Precision | Recall | Insight                              |
+| ----- | --------- | ------ | ------------------------------------ |
+| ASK   | 0.98      | 0.95   | Excellent                            |
+| FSK   | 0.95      | 0.94   | Stable                               |
+| PSK   | 0.94      | 0.75   | PSK is mistaken for Noise Frequently |
+| NOISE | 0.74      | 0.93   | Model Correctly predicts Noise mostly but also mistake other Classes like PSK as Noise |
 
 ---
 
